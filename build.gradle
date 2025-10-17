@@ -29,7 +29,7 @@ dependencies { // 얼티밋 버전은 여기서 바로 추가 가능, //라이�
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     compileOnly 'org.projectlombok:lombok' // compile 과정에서 사용하는 라이브러리
-    developmentOnly 'org.springframework.boot:spring-boot-devtools' // 개발 과정에서만 사용, 배포 X
+    // 개발 과정에서만 사용, 배포 X
     annotationProcessor 'org.projectlombok:lombok' // @annotation 기반으로 lombok 동작한다는 표식
     testImplementation 'org.springframework.boot:spring-boot-starter-test' //test 과정 라이브러리 (기본 내장)
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
